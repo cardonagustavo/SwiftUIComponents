@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-struct AdvancedImageView: View {
+struct ImageComponent: View {
     @State private var definition = ""
     
     var body: some View {
-        VStack {
-            Image("AppleImage.com-3")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 200, height: 200)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(20)
-                .shadow(color: .black, radius: 10, x: 0, y: 5)
-            
-            Text("""
+        NavigationView {
+            VStack {
+                Image("AppleImage.com-3")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(20)
+                    .shadow(color: .black, radius: 10, x: 0, y: 5)
+                
+                Text("""
             El componente Image representa una imagen en la interfaz de usuario de una aplicación.
             
             Propiedades Principales:
@@ -33,15 +34,16 @@ struct AdvancedImageView: View {
             5 - foregroundColor: Un modificador que permite cambiar el color de la imagen.
             6 - clipShape: Un modificador que permite recortar la imagen con una forma específica.
             """)
-            .font(.body)
-            .padding()
+                .font(.body)
+                .padding()
+            }
         }
     }
 }
 
-struct AdvancedImageView_Previews: PreviewProvider {
+struct ImageComponent_Previews: PreviewProvider {
     static var previews: some View {
-        AdvancedImageView()
+        ImageComponent()
     }
 }
 

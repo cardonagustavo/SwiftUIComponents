@@ -7,21 +7,22 @@
 
 import SwiftUI
 
-struct AdvancedTextView: View {
+struct TextComponent: View {
     var body: some View {
-        VStack {
-            Text("SwiftUI")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundColor(.blue)
-                .padding()
-                .background(Color.yellow)
-                .cornerRadius(10)
-                .shadow(color: .gray, radius: 3, x: 2, y: 2)
-                .padding()
-            
-            Text("""
-
+        NavigationView {
+            VStack {
+                Text("SwiftUI")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.blue)
+                    .padding()
+                    .background(Color.yellow)
+                    .cornerRadius(10)
+                    .shadow(color: .gray, radius: 3, x: 2, y: 2)
+                    .padding()
+                
+                Text("""
+                        
                         - Descripción: El componente Text representa una vista que muestra texto en la interfaz de usuario. Puede contener una cadena de texto estática o una cadena de texto dinámica que se actualiza según el estado de la aplicación.
                         
                         Propiedades Principales:
@@ -42,14 +43,14 @@ struct AdvancedTextView: View {
                 .cornerRadius(10)
                 .padding()
                 .multilineTextAlignment(.leading)
-            
+            }
         }
     }
 }
 
-struct AdvancedTextView_Previews: PreviewProvider {
+struct TextComponent_Previews: PreviewProvider {
     static var previews: some View {
-        AdvancedTextView()
+        TextComponent()
     }
 }
 

@@ -15,6 +15,9 @@
 		29F3BEA12BC96D4F000F72F7 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEA02BC96D4E000F72F7 /* TextComponent.swift */; };
 		29F3BEA42BC97A76000F72F7 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEA32BC97A76000F72F7 /* ButtonComponent.swift */; };
 		29F3BEA62BC97F28000F72F7 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEA52BC97F28000F72F7 /* ImageComponent.swift */; };
+		29F3BEA82BC985D8000F72F7 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEA72BC985D8000F72F7 /* ListComponent.swift */; };
+		29F3BEAC2BC995C0000F72F7 /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEAB2BC995C0000F72F7 /* NavigationApp.swift */; };
+		29F3BEAE2BC99759000F72F7 /* ButtonComponentUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3BEAD2BC99759000F72F7 /* ButtonComponentUsed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		29F3BEA02BC96D4E000F72F7 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
 		29F3BEA32BC97A76000F72F7 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		29F3BEA52BC97F28000F72F7 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
+		29F3BEA72BC985D8000F72F7 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		29F3BEAB2BC995C0000F72F7 /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
+		29F3BEAD2BC99759000F72F7 /* ButtonComponentUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponentUsed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,14 @@
 		29F3BE8C2BC96954000F72F7 /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				29F3BEAD2BC99759000F72F7 /* ButtonComponentUsed.swift */,
 				29F3BE8D2BC96954000F72F7 /* SwiftUIComponentsApp.swift */,
 				29F3BEA22BC96E37000F72F7 /* Components */,
 				29F3BE912BC9695B000F72F7 /* Assets.xcassets */,
 				29F3BE962BC9695B000F72F7 /* Persistence.swift */,
 				29F3BE982BC9695B000F72F7 /* SwiftUIComponents.xcdatamodeld */,
 				29F3BE932BC9695B000F72F7 /* Preview Content */,
+				29F3BEAB2BC995C0000F72F7 /* NavigationApp.swift */,
 			);
 			path = SwiftUIComponents;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 				29F3BEA02BC96D4E000F72F7 /* TextComponent.swift */,
 				29F3BEA32BC97A76000F72F7 /* ButtonComponent.swift */,
 				29F3BEA52BC97F28000F72F7 /* ImageComponent.swift */,
+				29F3BEA72BC985D8000F72F7 /* ListComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -158,11 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F3BE972BC9695B000F72F7 /* Persistence.swift in Sources */,
+				29F3BEA82BC985D8000F72F7 /* ListComponent.swift in Sources */,
 				29F3BEA42BC97A76000F72F7 /* ButtonComponent.swift in Sources */,
 				29F3BEA12BC96D4F000F72F7 /* TextComponent.swift in Sources */,
 				29F3BEA62BC97F28000F72F7 /* ImageComponent.swift in Sources */,
 				29F3BE8E2BC96954000F72F7 /* SwiftUIComponentsApp.swift in Sources */,
 				29F3BE9A2BC9695B000F72F7 /* SwiftUIComponents.xcdatamodeld in Sources */,
+				29F3BEAE2BC99759000F72F7 /* ButtonComponentUsed.swift in Sources */,
+				29F3BEAC2BC995C0000F72F7 /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
